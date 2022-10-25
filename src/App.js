@@ -4,12 +4,12 @@ import MovieCard from './components/pages/movie/MovieCard';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/movie" element={<MovieCard />} />
       </Routes>
-    </div>
+    </>
   );
 }
 
